@@ -16,9 +16,9 @@ import SectionReviews from 'components/SectionReviews'
 import SectionTech from 'components/SectionTech'
 import client from 'graphql/client'
 
-const Index = ({ logo }: LandingPageProps) => (
+const Index = ({ logo, header }: LandingPageProps) => (
   <>
-    <SectionHero logo={logo} />
+    <SectionHero logo={logo} header={header} />
     <SectionAboutProject />
     <SectionTech />
     <SectionConcepts />
